@@ -1,0 +1,6 @@
+{
+  "name": "朋友局德州扑克",
+  "description": "一款支持好友多人在线对战的私密德州扑克游戏。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
