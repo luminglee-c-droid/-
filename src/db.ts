@@ -2,7 +2,7 @@ import Database from 'better-sqlite3';
 import { User, Room, HandReplay } from './types';
 import path from 'path';
 
-const dbPath = process.env.DB_PATH || path.resolve(process.cwd(), 'development.db');
+const dbPath = path.resolve(process.cwd(), 'development.db');
 const db = new Database(dbPath);
 
 export function initDb() {
